@@ -1,0 +1,13 @@
+Slip - DFFEFFFG | start with D or E, one or more F, is followed by another Slip or a G which ends the Slip
+
+Slap - AH | ABDFFEFFGC | ADFFEFGC | ABAHC | A is its first character, If it is a two-character Slap then its second 
+		and last character is an 'H', If it is not a two-character Slap, then it is in one of these two forms:
+		o'A' followed by 'B' followed by a Slap, followed by a 'C'
+		o'A' followed by a Slip (see above) followed by a 'C'
+		•Nothing else is a Slap
+
+Slop - ABDFFEFFG | is a character string that consists of a Slap followed by a Slip.
+
+Slips:     DFG, EFG, DFFFFFG, DFDFDFDFG, DFEFFFFFG
+Slaps: AH, ABAHC, ABABAHCC, ADFGC, ADFFFFGC, ABAEFGCC, ADFDFGC
+Slops:       AHDFG, ADFGCDFFFFFG, ABAEFGCCDFEFFFFFG
